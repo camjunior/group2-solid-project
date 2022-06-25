@@ -1,14 +1,23 @@
 package BankSOLID;
 
-import java.util.Scanner;
+public class Client extends Bank {
 
-public class Client {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your 'Name' and 'CustomerId' to access your Bank account:");
-        String name = sc.nextLine();
-        String customerId = sc.nextLine();
-        Account client1 = new Account(name, customerId);
+    String name;
+    String customerId;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
     }
 }

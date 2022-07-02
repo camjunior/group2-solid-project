@@ -1,9 +1,14 @@
 package BankSOLID;
 
-public class Client extends Bank {
+public class Client implements Persona {
 
     String name;
     String customerId;
+
+    public Client(String name, String customerId) {
+        this.name = name;
+        this.customerId = customerId;
+    }
 
     public String getName() {
         return name;

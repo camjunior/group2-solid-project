@@ -1,8 +1,10 @@
 package BankSOLID;
 
-class Account extends Client {
+class Account {
     double bal;
     double prevTrans;
+    String name;
+    String customerId;
 
     public double getBal() {
         return bal;
@@ -20,7 +22,7 @@ class Account extends Client {
         this.prevTrans = prevTrans;
     }
 
-    Account(String name, String customerId) {
+    public Account(String name, String customerId) {
         this.name = name;
         this.customerId = customerId;
     }

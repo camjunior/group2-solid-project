@@ -3,8 +3,8 @@ package BankSOLID;
 class Account {
     double bal;
     double prevTrans;
-    String name;
-    String customerId;
+
+
 
     public double getBal() {
         return bal;
@@ -22,10 +22,7 @@ class Account {
         this.prevTrans = prevTrans;
     }
 
-    public Account(String name, String customerId) {
-        this.name = name;
-        this.customerId = customerId;
-    }
+
 
     void deposit(double amount) {
         if (amount != 0) {

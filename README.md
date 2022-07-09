@@ -7,4 +7,4 @@ As the project was based on SOLID principles, all classes have a single purpose,
 Participated in this project:
 Carlos Alberto
 Felix Jose
-Douglas Jaremillo
+Douglas Jaramillo
